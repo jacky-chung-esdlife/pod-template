@@ -129,8 +129,8 @@ module Pod
         text = File.read(file_name)
         text.gsub!("${POD_NAME}", @pod_name)
         text.gsub!("${REPO_NAME}", @pod_name.gsub('+', '-'))
-        text.gsub!("${USER_NAME}", user_name)
-        text.gsub!("${USER_EMAIL}", user_email)
+        text.gsub!("Jacky Chung", user_name)
+        text.gsub!("jackychung@esdlife.com", user_email)
         text.gsub!("${YEAR}", year)
         text.gsub!("${DATE}", date)
         File.open(file_name, "w") { |file| file.puts text }

@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
-  s.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5']
+  s.swift_versions = '5.0'
 
   s.source_files = '${POD_NAME}/Classes/**/*'
   
